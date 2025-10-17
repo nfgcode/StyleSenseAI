@@ -1,0 +1,25 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Cache & pycache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# VSCode settings
+.vscode/
+
+# Large AI/model/data
+*.h5
+*.tflite
+*.pb
+*.zip
+*.tar.gz
+*.npy
+*.npz
+
+# Temporary outputs
+data/processed/

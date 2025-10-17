@@ -1,0 +1,63 @@
+# =========================================
+# StyleSense AI - Outfit Virtual (AI + AR)
+# FIXED requirements (py-version & OS aware)
+# =========================================
+
+# ---- Core System & Data Handling ----
+numpy>=1.24.0
+pandas>=2.1.0
+matplotlib>=3.8.0
+scikit-learn>=1.4.0
+tqdm>=4.66.0
+
+# ---- Deep Learning / CV ----
+# TensorFlow versi sesuai Python:
+tensorflow>=2.15.0; python_version<'3.12'
+tensorflow==2.17.0; python_version>='3.12'
+# gunakan tf.keras (hapus dependency 'keras' terpisah)
+torch>=2.2.0
+torchvision>=0.17.0
+opencv-python>=4.9.0
+mediapipe>=0.10.0
+ultralytics>=8.2.0
+onnx>=1.15.0
+onnxruntime>=1.18.0
+Pillow>=10.0.0
+
+# ---- AR & Visual Overlay (opsional) ----
+open3d>=0.18.0
+pyopengl>=3.1.7
+pygame>=2.5.0
+
+# ---- Web & API Integration ----
+flask>=3.0.0
+flask-cors>=4.0.0
+fastapi>=0.110.0
+uvicorn>=0.29.0
+requests>=2.32.0
+jinja2>=3.1.3
+
+# ---- Security & Reliability ----
+cryptography>=42.0.0
+pyjwt>=2.9.0
+gunicorn>=21.2.0
+psutil>=5.9.0
+
+# ---- File Export / Reporting ----
+openpyxl>=3.1.0
+reportlab>=4.0.8
+pandas-stubs>=2.1.0.230
+pdfkit>=1.0.0
+
+# ---- UI (opsional) ----
+streamlit>=1.33.0
+
+# ---- Dev & Utilities ----
+python-dotenv>=1.0.1
+pytest>=8.1.0
+black>=24.3.0
+
+# ---- Mobile Bridge (opsional) ----
+kivy>=2.3.0
+kivymd>=1.1.1
+pyjnius>=1.6.1; platform_system=='Windows'
